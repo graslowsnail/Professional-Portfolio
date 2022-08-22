@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+}
+
+body {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER / NAVE BARE STYLE START */
+
+header {
+    padding: 20px 35px;
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: grey;
+    background-color: lightblue;
+
+    /* TEXT SHADOWS MAYBE */
+    /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+header a {
+    text-decoration: none;
+    color: gray;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    /* TEXT SHADOWS MAYBE */
+    /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+header nav ul li a:hover {
+    background-color: black;
+    color: grey;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+section {
+    padding: 60px;
+
+}
+
+/* HEADER / NAV BAR STYLES END */
+
+/* HERO STYLE STARTS */
+/* UNDER HEADER */
+.hero {
+    /* add pic */
+    /* background-image: url(); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: fixed;
+    background-attachment: fixed;
+    background-position: 80%;
+    background-color: black;
+}
+
+/* SUBTILE */
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: auto;
+    color: wheat;
+    font-size: 20px;
+}
+
+.hero-cta h2 {
+    font-size: 18px;
+    background-color: yellow;
+}
