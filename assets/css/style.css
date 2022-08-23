@@ -83,7 +83,7 @@ section {
     /* background-size: cover; */
     /* background-position: center; */
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     flex-wrap: wrap;
     background-attachment: fixed;
     background-position: 80%;
