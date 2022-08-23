@@ -106,3 +106,83 @@ section {
     right: 5%;
     padding: 5px;
 }
+
+
+/* CSS FOR ABOUT ME SECTION */
+
+.intro {
+    margin: 50px auto;
+    padding-bottom: 5%;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 100%;
+
+}
+
+.section-title {
+    color: black;
+    font-size: 46px;
+    border-right: 5px solid;
+    border-color: black;
+    border-width: 100%;
+    flex-basis: 100%;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.intro-text p {
+    color: green;
+    font-size: 18px;
+    margin-right: 10px;
+    max-width: 1111px;
+    line-height: 1;
+    margin: 20px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* CSS FOR WORK SECTION */
+
+.works {
+    position: relative;
+    width: 50%;
+
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.works:hover .image {
+    opacity: 0.3;
+}
+
+.works:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
