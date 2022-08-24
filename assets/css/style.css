@@ -70,6 +70,7 @@ header nav ul li a:hover {
 
 section {
     padding: 60px;
+    background-color: gray;
 
 }
 
@@ -112,66 +113,82 @@ section {
 /* CSS FOR ABOUT ME SECTION */
 
 .intro {
-    margin: 50px auto;
-    padding-bottom: 5%;
-    background-color: aliceblue;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-basis: 100%;
-
+    background-color: blanchedalmond;
 }
 
 .section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
     color: black;
-    font-size: 46px;
-    border-right: 5px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    /* width----- sets width of the container  that holds the title "About Me" */
+    width: 50%;
     border-color: black;
-    border-width: 100%;
-    flex-basis: 100%;
-    padding: 20px;
-    margin: 20px;
-
 }
 
-.intro-text {
-    color: green;
-    font-size: 18px;
-    margin-right: 10px;
-    max-width: 1111px;
-    line-height: 1;
-    margin: 20px;
-    padding: 20px;
-    flex-grow: 1;
+.intro p {
+    line-height: 1.7;
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
 }
 
 .flex-row {
-    /* not doing anyting right now */
+    display: flex;
 }
+
 
 /* CSS FOR WORK SECTION */
 
+
+/* main container of the work section */
 .works {
-    margin: 50px auto;
-    padding-bottom: 5%;
-    background-color: aliceblue;
+    background-color: burlywood;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-basis: 100%;
 }
 
-.work {
-    color: green;
-    font-size: 18px;
-    margin-right: 10px;
-    max-width: 1111px;
-    line-height: 1;
-    margin: 20px;
-    padding: 20px;
-    flex-grow: 1;
+/* style for the work box*/
+.work {}
+
+
+/* for the name of what work it is */
+.work-name {
+    color: black;
+    background-color: aquamarine;
 }
 
+.work-container-one {
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: space-around;
+    /*  pushes content to fill the bottom etc.*/
+    /* align-items: flex-end; start,center */
+    /* flex-direction: column;--makes it a colum */
+
+}
+
+/* WORK CONTAINER 1 */
+.work-one {
+    background-color: black;
+}
+
+/*  WORK CONTAINER 2 */
+.work-two {
+    background-color: blueviolet;
+}
+
+/*  WORK CONTAINER 3 */
+.work-three {
+    background-color: brown;
+}
+
+
+/* IMAGE CONTAINER */
 .image {
+    display: flex;
     max-width: 500px;
 }
