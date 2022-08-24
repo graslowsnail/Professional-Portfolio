@@ -164,11 +164,17 @@ section {
 .work-container-one {
     display: flex;
     background-color: yellowgreen;
-    justify-content: space-around;
+    justify-content: center;
     /*  pushes content to fill the bottom etc.*/
     /* align-items: flex-end; start,center */
     /* flex-direction: column;--makes it a colum */
+}
 
+.work-container-two {
+    display: flex;
+    background-color: cadetblue;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 /* WORK CONTAINER 1 */
@@ -189,6 +195,6 @@ section {
 
 /* IMAGE CONTAINER */
 .image {
-    display: flex;
+    /* display: flex; */
     max-width: 500px;
 }
