@@ -74,6 +74,28 @@ section {
 
 }
 
+footer {
+    background-color: darkolivegreen;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: black;
+}
+
+footer h2 {
+    font-size: 30px;
+}
+
+footer div {
+    line-height: 1.5;
+
+}
+
+footer a {
+    color: black;
+}
+
 /* HEADER / NAV BAR STYLES END */
 
 /* HERO STYLE STARTS */
@@ -151,9 +173,6 @@ section {
     display: flex;
 }
 
-/* style for the work box*/
-.work {}
-
 
 /* for the name of what work it is */
 .work-name {
@@ -161,14 +180,18 @@ section {
     background-color: aquamarine;
 }
 
+
 .work-container-one {
-    display: flex;
     background-color: yellowgreen;
     justify-content: center;
+    position: relative;
     /*  pushes content to fill the bottom etc.*/
     /* align-items: flex-end; start,center */
     /* flex-direction: column;--makes it a colum */
 }
+
+
+/* # WORK CONTAINER 2 # */
 
 .work-container-two {
     display: flex;
@@ -177,24 +200,80 @@ section {
     justify-content: space-around;
 }
 
-/* WORK CONTAINER 1 */
+
+
+/* WORK BOX 1 */
 .work-one {
-    background-color: black;
+    display: flex;
+    position: relative;
+    padding: 20px;
+    widht: 50%;
 }
 
-/*  WORK CONTAINER 2 */
+/* # */
+
+/* style for the work box*/
+.work {
+    background-color: cornsilk;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+
+
+}
+
+
+
+.work:hover .image {
+    opacity: 0.3;
+}
+
+.work:hover .middle {
+    opacity: 1;
+}
+
+/* # */
+
+/*  WORK BOX 2 */
 .work-two {
     background-color: blueviolet;
 }
 
-/*  WORK CONTAINER 3 */
+/* # */
+
+/*  WORK BOX 3 */
 .work-three {
     background-color: brown;
 }
 
+/* # */
 
-/* IMAGE CONTAINER */
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+/* IMAGE BOX */
 .image {
-    /* display: flex; */
     max-width: 500px;
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.text- {
+    background-color: #04aa6d;
+    color: darkmagenta;
+    font-size: 16px;
+    padding: 16px 32px;
 }
