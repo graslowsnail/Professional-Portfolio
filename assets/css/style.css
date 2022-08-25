@@ -13,7 +13,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: navy;
+    background-color: #2e1603;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -27,7 +27,7 @@ header h1 {
     margin: 0;
     font-size: 36px;
     color: grey;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     padding: 5px 10px 5px 40px;
     position: relative;
     right: 35px;
@@ -38,7 +38,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: gray;
+    color: white;
 }
 
 header nav {
@@ -70,17 +70,17 @@ header nav ul li a:hover {
 
 section {
     padding: 60px;
-    background-color: gray;
+    background-color: #80471c;
 
 }
 
 footer {
-    background-color: darkolivegreen;
+    background-color: #2e1603;
     padding: 40px 35px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    color: black;
+    color: white;
 }
 
 footer h2 {
@@ -93,7 +93,7 @@ footer div {
 }
 
 footer a {
-    color: black;
+    color: white;
 }
 
 /* HEADER / NAV BAR STYLES END */
@@ -111,7 +111,7 @@ footer a {
     flex-wrap: wrap;
     background-attachment: fixed;
     background-position: 80%;
-    background-color: black;
+    background-color: #371d10;
     position: relative;
 }
 
@@ -135,19 +135,20 @@ footer a {
 /* CSS FOR ABOUT ME SECTION */
 
 .intro {
-    background-color: blanchedalmond;
+    background-color: #80471c;
 }
 
 .section-title {
     font-size: 48px;
     border-bottom: 3px solid;
-    color: black;
+    color: white;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
     /* width----- sets width of the container  that holds the title "About Me" */
     width: 50%;
-    border-color: black;
+    border-color: white;
+    padding: 10px 0;
 }
 
 .intro p {
@@ -157,10 +158,18 @@ footer a {
     margin: 0 auto;
     font-size: 20px;
     text-align: center;
+    padding: 10px;
 }
 
 .flex-row {
     display: flex;
+
+    background-color: #481f01;
+}
+
+.flex-row- {
+    display: flex;
+    background-color: #eed9c4;
 }
 
 
@@ -169,7 +178,7 @@ footer a {
 
 /* main container of the work section */
 .works {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     display: flex;
 }
 
@@ -182,7 +191,8 @@ footer a {
 
 
 .work-container-one {
-    background-color: yellowgreen;
+    background-color: #eed9c4;
+    display: flex;
     justify-content: center;
     position: relative;
     /*  pushes content to fill the bottom etc.*/
@@ -194,32 +204,40 @@ footer a {
 /* # WORK CONTAINER 2 # */
 
 .work-container-two {
+    background-color: #eed9c4;
     display: flex;
-    background-color: cadetblue;
+    flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
+    position: relative;
 }
 
+.work-container-three {
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+}
 
 
 /* WORK BOX 1 */
-.work-one {
+/* .work-one {
     display: flex;
+    justify-content: center;
     position: relative;
     padding: 20px;
-    widht: 50%;
-}
+    width: 50%;
+} */
 
 /* # */
 
 /* style for the work box*/
 .work {
-    background-color: cornsilk;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
     justify-content: center;
-
+    padding: 20px;
+    /* justify-content: center; */
 
 }
 
@@ -237,15 +255,18 @@ footer a {
 
 /*  WORK BOX 2 */
 .work-two {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    width: 50%;
 }
 
 /* # */
 
 /*  WORK BOX 3 */
-.work-three {
-    background-color: brown;
-}
 
 /* # */
 
@@ -257,9 +278,7 @@ footer a {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    text-align: center;
 }
-
 
 
 /* IMAGE BOX */
@@ -269,11 +288,13 @@ footer a {
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
+
+
 }
 
-.text- {
-    background-color: #04aa6d;
-    color: darkmagenta;
+.text {
+    background-color: #5e2c04;
+    color: white;
     font-size: 16px;
     padding: 16px 32px;
 }
